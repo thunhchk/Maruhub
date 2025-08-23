@@ -3337,7 +3337,7 @@ Disc_Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Disc_Logo.BorderSizePixel = 0
 Disc_Logo.Position = UDim2.new(0, 5, 0, 1)
 Disc_Logo.Size = UDim2.new(0, 23, 0, 23)
-Disc_Logo.Image = "http://www.roblox.com/asset/?id=12058969086"
+Disc_Logo.Image = "http://www.roblox.com/asset/?id=92722314324124"
 
 Disc_Title.Name = "Disc_Title"
 Disc_Title.Parent = Discord
@@ -4023,7 +4023,7 @@ UICorner.Parent = ImageButton
 				MainToggle_3.Position = UDim2.new(0.5, 0, 0.5, 0)
 				MainToggle_3.Size = UDim2.new(0, 0, 0, 0)
 				MainToggle_3.ZIndex = 16
-				MainToggle_3.Image = "http://www.roblox.com/asset/?id=6031068421"
+				MainToggle_3.Image = "http://www.roblox.com/asset/?id=92722314324124"
 				MainToggle_3.ImageColor3 = _G.Color
 				MainToggle_3.Visible =false
 				UICorner_3.CornerRadius = UDim.new(0, 3)
@@ -4260,7 +4260,7 @@ UICorner.Parent = ImageButton
 				ImageButton.Position = UDim2.new(1, -25, 0.5, 0)
 				ImageButton.Size = UDim2.new(0, 12, 0, 12)
 				ImageButton.ZIndex = 16
-				ImageButton.Image = "http://www.roblox.com/asset/?id=6282522798"
+				ImageButton.Image = "http://www.roblox.com/asset/?id=92722314324124"
 
 				Scroll_Items.Name = "Scroll_Items"
 				Scroll_Items.Parent = MainDropDown
@@ -4442,7 +4442,7 @@ UICorner.Parent = ImageButton
 				ImageButton.Position = UDim2.new(1, -25, 0.5, 0)
 				ImageButton.Size = UDim2.new(0, 12, 0, 12)
 				ImageButton.ZIndex = 16
-				ImageButton.Image = "http://www.roblox.com/asset/?id=6282522798"
+				ImageButton.Image = "http://www.roblox.com/asset/?id=92722314324124"
 				local DropTable = {}
 				Scroll_Items.Name = "Scroll_Items"
 				Scroll_Items.Parent = MainDropDown
@@ -9586,11 +9586,11 @@ end
         task.spawn(function()
             while task.wait() do
                 pcall(function()
-                    if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
+                    if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                         FM:Set("Full Moon: 100")
-                    elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" then
+                    elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                         FM:Set("Full Moon: 75")
-                    elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
+                    elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                         FM:Set("Full Moon: 50")
                     elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                         FM:Set("Full Moon: 25")
