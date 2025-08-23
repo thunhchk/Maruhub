@@ -5319,7 +5319,7 @@ end)
 
 
    if World3 then
-       AutoFarm:Seperator("Bone Farm")
+       AutoFarm:Seperator("fram xương")
                 
     Boneyou = AutoFarm:Label("Check Bone")
                 
@@ -6820,7 +6820,7 @@ end
         KillPercent = Value
       end)
       
-     Settings:Toggle("Auto Use Skill Z",true,function(Z)
+     Settings:Toggle("auto Use Skill Z",true,function(Z)
        SkillZ = Z
      end)
      
@@ -6840,12 +6840,12 @@ end
        SkillC = F
      end)  
      
-     Settings:Seperator("Settings Farm")         
+     Settings:Seperator("Settings Farm quái")         
      
       
-    Settings:Toggle("Auto Bring Mob", true,function(value)
-      _G.BringMonster = value
-      _G.BringMob = value 
+    Settings:Toggle("Auto Bring Mob", true,function(false)
+      _G.BringMonster = false
+      _G.BringMob = false
        end)     
        
        spawn(function()
